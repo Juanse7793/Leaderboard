@@ -14,9 +14,6 @@
 
 **In this repository I created a Leaderboard using an API.**
 
-## Live Demo
-
-Here you have a [Live Demo](https://juanse7793.github.io/To-do-list/) of the To-Do-List
 
 ## Run it
 
