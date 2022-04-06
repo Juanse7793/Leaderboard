@@ -39,6 +39,7 @@ li:nth-child(odd) {
 }
 
 .sub-btn {
+  width: 155px;
   display: flex;
   justify-content: flex-end;
 }

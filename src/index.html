@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="index.js"></script>
+    <script type='module' src="index.js"></script>
     <title>Leaderboard</title>
 </head>
 <body>
@@ -22,11 +22,13 @@
         
         <div class="add-score">
             <h2>Add your Score</h2>
-            <input type="text" placeholder="Your Name">
-            <input class="score" type="text" placeholder="Your Score">
-            <div class="sub-btn">
-                <button type="button">Submit</button>
-            </div>
+            <form id="form">
+                <input id="name" type="text" placeholder="Your Name">
+                <input id="scores" class="score" type="text" placeholder="Your Score">
+                <div class="sub-btn">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
         </div>
     </div>
 </body>
