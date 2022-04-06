@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Juanse7793/Webpack.git"
+    "url": "git+https://github.com/Juanse7793/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Juanse7793/Webpack/issues"
+    "url": "https://github.com/Juanse7793/Leaderboard/issues"
   },
-  "homepage": "https://github.com/Juanse7793/Webpack#readme",
+  "homepage": "https://github.com/Juanse7793/Leaderboard#readme",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
