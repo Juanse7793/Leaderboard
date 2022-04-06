@@ -7,15 +7,18 @@ const sortScores = (array) => array.sort((a, b) => b.score - a.score);
 
 const display = () => {
   getScores().then((scoresList) => {
-    const scores = sortScores(scoresList);
+    const scoresSorted = sortScores(scoresList);
+
     const container = document.querySelector('.table');
     container.innerHTML = '';
 
-    scores.forEach((object) => {
+    scoresSorted.forEach((object) => {
       const list = document.createElement('li');
       list.classList.add('list');
+
       const read = `<span class="name">${object.user}:</span>
       <span class="score">${object.score}</span>`;
+
       list.innerHTML = read;
       container.appendChild(list);
     });
