@@ -34,6 +34,10 @@ Use the following steps to run this Project locally:
 - Enter in to the folder:
 `cd Leaderboard`
 
+- Run `npm i` to install all dependencies
+- Run `npm run` build to bundle the project with webpack, and
+- Run `npm start` to launch the application
+
 - Open the folder with a code editor (VS Code preferred)
 
 - Go to the index.html file and open it with live server
