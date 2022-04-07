@@ -1,57 +1,127 @@
-* {
-  font-family: 'Inter', sans-serif;
+@media only screen and (max-width: 700px) {
+  * {
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-color: #e2e9fd;
+  }
+
+  .scores-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
+
+  .add-score {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .table {
+    border: 1px solid black;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  li:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+
+  .input-name,
+  .score {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .s-btn,
+  .refresh-btn {
+    width: 120px;
+    margin: 10px 0;
+    background-color: white;
+  }
+
+  .list {
+    padding: 4px 0 4px 4px;
+  }
 }
 
-.divided {
-  display: flex;
-  justify-content: space-around;
-}
+@media only screen and (min-width: 701px) {
+  * {
+    font-family: 'Inter', sans-serif;
+  }
 
-.scores-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 300px;
-  height: auto;
-}
+  body {
+    background-color: #cdffcd;
+  }
 
-.add-score {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
+  .divided {
+    display: flex;
+    justify-content: space-around;
+  }
 
-.table {
-  border: 1px solid black;
-}
+  .whole-scores-container {
+    width: 50%;
+  }
 
-li {
-  list-style-type: none;
-}
+  .scores-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+  }
 
-li:nth-child(odd) {
-  background-color: #f2f2f2;
-}
+  .add-score {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
 
-.refresh-btn {
-  width: 70px;
-  height: 20px;
-}
+  .table {
+    border: 1px solid black;
+    width: 100%;
+  }
 
-.sub-btn {
-  width: 155px;
-  display: flex;
-  justify-content: flex-end;
-}
+  li {
+    list-style-type: none;
+  }
 
-.score {
-  margin: 15px 0;
-}
+  li:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
 
-.title {
-  margin-left: 15px;
-}
+  .refresh-btn,
+  .s-btn {
+    width: 120px;
+    margin: 10px 0;
+    background-color: white;
+  }
 
-.list {
-  padding: 4px 0 4px 4px;
+  .sub-btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .score {
+    margin: 15px 0;
+  }
+
+  .title {
+    margin-left: 20px;
+    text-decoration: underline;
+  }
+
+  .list {
+    padding: 4px 0 4px 4px;
+    font-size: larger;
+  }
+
+  .input-name,
+  .score {
+    width: 98%;
+    margin: 10px 0;
+  }
 }

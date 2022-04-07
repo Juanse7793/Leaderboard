@@ -1,3 +1,5 @@
+// this code should be executed just one time to obtain the game key
+
 const apiBase = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
 
 const newGame = async () => {
